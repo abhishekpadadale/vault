@@ -6,12 +6,12 @@ import (
 	"time"
 
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/builtin/credential/userpass"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/builtin/credential/userpass"
+	vaulthttp "github.com/abhishekpadadale/vault/http"
+	"github.com/abhishekpadadale/vault/sdk/helper/logging"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 type userpassTestMethod struct{}

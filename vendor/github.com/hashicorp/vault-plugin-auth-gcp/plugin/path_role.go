@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-gcp-common/gcputil"
-	"github.com/hashicorp/vault/sdk/framework"
-	vaultconsts "github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
-	"github.com/hashicorp/vault/sdk/helper/tokenutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	vaultconsts "github.com/abhishekpadadale/vault/sdk/helper/consts"
+	"github.com/abhishekpadadale/vault/sdk/helper/strutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/tokenutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 const (

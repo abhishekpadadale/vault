@@ -14,10 +14,10 @@ import (
 	"github.com/go-test/deep"
 
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/helper/namespace"
+	"github.com/abhishekpadadale/vault/sdk/helper/consts"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 func TestHandler_parseMFAHandler(t *testing.T) {

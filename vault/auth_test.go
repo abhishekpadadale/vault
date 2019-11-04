@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/helper/namespace"
+	"github.com/abhishekpadadale/vault/sdk/helper/jsonutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func TestAuth_ReadOnlyViewDuringMount(t *testing.T) {

@@ -3,8 +3,8 @@ package mock
 import (
 	"context"
 
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 // pathInternal is used to test viewing internal backend values. In this case,

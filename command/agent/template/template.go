@@ -12,8 +12,8 @@ import (
 	ctconfig "github.com/hashicorp/consul-template/config"
 	"github.com/hashicorp/consul-template/manager"
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/command/agent/config"
-	"github.com/hashicorp/vault/sdk/helper/pointerutil"
+	"github.com/abhishekpadadale/vault/command/agent/config"
+	"github.com/abhishekpadadale/vault/sdk/helper/pointerutil"
 )
 
 // ServerConfig is a config struct for setting up the basic parts of the

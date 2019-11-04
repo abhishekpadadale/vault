@@ -6,12 +6,12 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/helper/testhelpers"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/physical/inmem"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/helper/testhelpers"
+	vaulthttp "github.com/abhishekpadadale/vault/http"
+	"github.com/abhishekpadadale/vault/sdk/helper/logging"
+	"github.com/abhishekpadadale/vault/sdk/physical/inmem"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 func TestSysRekey_Verification(t *testing.T) {

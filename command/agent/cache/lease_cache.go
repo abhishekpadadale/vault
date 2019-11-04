@@ -17,16 +17,16 @@ import (
 
 	"github.com/hashicorp/errwrap"
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	cachememdb "github.com/hashicorp/vault/command/agent/cache/cachememdb"
-	"github.com/hashicorp/vault/helper/namespace"
-	nshelper "github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/sdk/helper/base62"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/cryptoutil"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
-	"github.com/hashicorp/vault/sdk/helper/locksutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/api"
+	cachememdb "github.com/abhishekpadadale/vault/command/agent/cache/cachememdb"
+	"github.com/abhishekpadadale/vault/helper/namespace"
+	nshelper "github.com/abhishekpadadale/vault/helper/namespace"
+	"github.com/abhishekpadadale/vault/sdk/helper/base62"
+	"github.com/abhishekpadadale/vault/sdk/helper/consts"
+	"github.com/abhishekpadadale/vault/sdk/helper/cryptoutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/jsonutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/locksutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 const (

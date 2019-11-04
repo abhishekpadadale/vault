@@ -10,9 +10,9 @@ cd $tempdir
 
 ## Get Vault
 echo "Fetching vault..."
-git clone https://github.com/hashicorp/vault
+git clone https://github.com/abhishekpadadale/vault
 
-for plugin in $(grep github.com/hashicorp/vault-plugin- vault/go.mod | cut -f 2 | cut -d ' ' -f 1 | cut -d '/' -f 3)
+for plugin in $(grep github.com/abhishekpadadale/vault-plugin- vault/go.mod | cut -f 2 | cut -d ' ' -f 1 | cut -d '/' -f 3)
 do
 	if [ -z $SKIP_MODULE_UPDATING ]
 	then
@@ -20,7 +20,7 @@ do
 		git clone https://github.com/hashicorp/$plugin
 		cd $plugin
 		rm -rf vendor
-		go get github.com/hashicorp/vault/api${API_BRANCH}
+		go get github.com/abhishekpadadale/vault/api${API_BRANCH}
 		go mod tidy
 		go mod vendor
 		git add .

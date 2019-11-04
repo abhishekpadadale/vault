@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/vault/api"
+	"github.com/abhishekpadadale/vault/api"
 	"github.com/mitchellh/cli"
 )
 

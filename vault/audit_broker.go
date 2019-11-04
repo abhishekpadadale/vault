@@ -9,8 +9,8 @@ import (
 	metrics "github.com/armon/go-metrics"
 	log "github.com/hashicorp/go-hclog"
 	multierror "github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/vault/audit"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/audit"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 type backendEntry struct {

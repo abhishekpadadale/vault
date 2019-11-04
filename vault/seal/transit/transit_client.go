@@ -8,7 +8,7 @@ import (
 	"strconv"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
+	"github.com/abhishekpadadale/vault/api"
 )
 
 type transitClientEncryptor interface {

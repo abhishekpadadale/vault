@@ -350,4 +350,4 @@ The GCP Auth Plugin has a full HTTP API. Please see the
 [api-docs]: /api/auth/gcp/index.html
 [identity-group-aliases]: /api/secret/identity/group-alias.html
 [instance-identity]: https://cloud.google.com/compute/docs/instances/verifying-instance-identity
-[repo]: https://github.com/hashicorp/vault-plugin-auth-gcp
+[repo]: https://github.com/abhishekpadadale/vault-plugin-auth-gcp

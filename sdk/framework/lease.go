@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 // LeaseExtend is left for backwards compatibility for plugins. This function

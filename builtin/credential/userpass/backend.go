@@ -3,9 +3,9 @@ package userpass
 import (
 	"context"
 
-	"github.com/hashicorp/vault/helper/mfa"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/helper/mfa"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func Factory(ctx context.Context, conf *logical.BackendConfig) (logical.Backend, error) {

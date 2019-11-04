@@ -10,9 +10,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/vault/seal"
+	"github.com/abhishekpadadale/vault/sdk/helper/jsonutil"
+	"github.com/abhishekpadadale/vault/sdk/physical"
+	"github.com/abhishekpadadale/vault/vault/seal"
 	"github.com/keybase/go-crypto/openpgp"
 	"github.com/keybase/go-crypto/openpgp/packet"
 )

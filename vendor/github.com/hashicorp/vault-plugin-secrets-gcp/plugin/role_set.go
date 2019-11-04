@@ -13,11 +13,11 @@ import (
 	"github.com/hashicorp/errwrap"
 	"github.com/hashicorp/go-gcp-common/gcputil"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/vault-plugin-secrets-gcp/plugin/iamutil"
-	"github.com/hashicorp/vault-plugin-secrets-gcp/plugin/util"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/useragent"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault-plugin-secrets-gcp/plugin/iamutil"
+	"github.com/abhishekpadadale/vault-plugin-secrets-gcp/plugin/util"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/helper/useragent"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 	"google.golang.org/api/iam/v1"
 )
 

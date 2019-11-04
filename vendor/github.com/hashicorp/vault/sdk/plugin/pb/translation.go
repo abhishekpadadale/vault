@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/ptypes"
-	"github.com/hashicorp/vault/sdk/helper/errutil"
-	"github.com/hashicorp/vault/sdk/helper/parseutil"
-	"github.com/hashicorp/vault/sdk/helper/wrapping"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/helper/errutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/parseutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/wrapping"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 const (

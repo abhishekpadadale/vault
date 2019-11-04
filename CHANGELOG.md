@@ -255,7 +255,7 @@ CHANGES:
    log entries are above the maximum UDP packet size and others.
  * Both PeriodicFunc and WALRollback functions will be called if both are
    provided. Previously WALRollback would only be called if PeriodicFunc was
-   not set. See [GH-6717](https://github.com/hashicorp/vault/pull/6717) for
+   not set. See [GH-6717](https://github.com/abhishekpadadale/vault/pull/6717) for
    details.
  * Vault now uses Go's official dependency management system, Go Modules, to
    manage dependencies. As a result to both reduce transitive dependencies for
@@ -1008,14 +1008,14 @@ BUG FIXES:
  * replication/perfstandby: Fix redirect on approle update [GH-5820]
  * secrets/azure: Fix valid roles being rejected for duplicate ids despite
    having distinct scopes
-   [[GH-16]](https://github.com/hashicorp/vault-plugin-secrets-azure/pull/16)
+   [[GH-16]](https://github.com/abhishekpadadale/vault-plugin-secrets-azure/pull/16)
  * storage/gcs: Send md5 of values to GCS to avoid potential corruption
    [GH-5804]
  * secrets/kv: Fix issue where storage version would get incorrectly downgraded
    [GH-5809]
  * secrets/kv: Disallow empty paths on a `kv put` while accepting empty paths
    for all other operations for backwards compatibility
-   [[GH-19]](https://github.com/hashicorp/vault-plugin-secrets-kv/pull/19)
+   [[GH-19]](https://github.com/abhishekpadadale/vault-plugin-secrets-kv/pull/19)
  * ui: Allow for secret creation in kv v2 when cas_required=true [GH-5823]
  * ui: Fix dr secondary operation token generation via the ui [GH-5818]
  * ui: Fix the PKI context menu so that items load [GH-5824]
@@ -1294,11 +1294,11 @@ FEATURES:
  * **AliCloud OSS Storage**: AliCloud OSS can now be used for Vault storage.
  * **AliCloud Auth Plugin**: AliCloud's identity services can now be used to
    grant access to Vault. See the [plugin
-   repository](https://github.com/hashicorp/vault-plugin-auth-alicloud) for
+   repository](https://github.com/abhishekpadadale/vault-plugin-auth-alicloud) for
    more information.
  * **Azure Secrets Plugin**: There is now a plugin (pulled in to Vault) that
    allows generating credentials to allow access to Azure. See the [plugin
-   repository](https://github.com/hashicorp/vault-plugin-secrets-azure) for
+   repository](https://github.com/abhishekpadadale/vault-plugin-secrets-azure) for
    more information.
  * **HA Support for MySQL Storage**: MySQL storage now supports HA.
  * **ACL Templating**: ACL policies can now be templated using identity Entity,
@@ -1821,11 +1821,11 @@ FEATURES:
  * Azure Authentication Plugin: There is now a plugin (pulled in to Vault) that
    allows authenticating Azure machines to Vault using Azure's Managed Service
    Identity credentials. See the [plugin
-   repository](https://github.com/hashicorp/vault-plugin-auth-azure) for more
+   repository](https://github.com/abhishekpadadale/vault-plugin-auth-azure) for more
    information.
  * GCP Secrets Plugin: There is now a plugin (pulled in to Vault) that allows
    generating secrets to allow access to GCP. See the [plugin
-   repository](https://github.com/hashicorp/vault-plugin-secrets-gcp) for more
+   repository](https://github.com/abhishekpadadale/vault-plugin-secrets-gcp) for more
    information.
  * Selective Audit HMACing of Request and Response Data Keys: HMACing in audit
    logs can be turned off for specific keys in the request input map and

@@ -49,18 +49,18 @@ Here are links to resources, documentation, examples and best practices to guide
 
 * [Plugins documentation](https://www.vaultproject.io/docs/internals/plugins.html)
 * [Guide to building Vault plugin backends](https://www.vaultproject.io/guides/operations/plugin-backends.html)
-* [Vault's source code](https://github.com/hashicorp/vault)
+* [Vault's source code](https://github.com/abhishekpadadale/vault)
 
 **Secrets Engines**
 
 * [Secret engine documentation](https://www.vaultproject.io/docs/secrets/index.html)
-* There is currently no empty sample secrets plugin; however, the [AliCloud Secrets Plugin](https://github.com/hashicorp/vault-plugin-secrets-alicloud) was written recently and is fairly simple
+* There is currently no empty sample secrets plugin; however, the [AliCloud Secrets Plugin](https://github.com/abhishekpadadale/vault-plugin-secrets-alicloud) was written recently and is fairly simple
 
 **Authentication Methods**
 
 * [Auth Methods documentation](https://www.vaultproject.io/docs/auth/index.html)
 * [Example of how to build, install, and maintain auth method plugins plugin](https://www.hashicorp.com/blog/building-a-vault-secure-plugin)
-* [Sample plugin code](https://github.com/hashicorp/vault-auth-plugin-example)
+* [Sample plugin code](https://github.com/abhishekpadadale/vault-auth-plugin-example)
 
 **Audit Devices**
 
@@ -85,7 +85,7 @@ The only knowledge necessary to write a plugin is basic command-line skills and 
 
 ### 4. Review
 
-HashiCorp will review and certify your Vault integration. Please send the Vault logs and other relevant logs for verification at: [vault-integration-dev@hashicorp.com](mailto:vault-integration-dev@hashicorp.com). For Auth, Secret and Storage plugins, submit a GitHub pull request (PR) against the [Vault project](https://github.com/hashicorp/vault). Where applicable, the vendor will need to provide HashiCorp with a test account.
+HashiCorp will review and certify your Vault integration. Please send the Vault logs and other relevant logs for verification at: [vault-integration-dev@hashicorp.com](mailto:vault-integration-dev@hashicorp.com). For Auth, Secret and Storage plugins, submit a GitHub pull request (PR) against the [Vault project](https://github.com/abhishekpadadale/vault). Where applicable, the vendor will need to provide HashiCorp with a test account.
 
 ### 5. Release
 

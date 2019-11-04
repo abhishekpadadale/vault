@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/hashicorp/vault/sdk/helper/salt"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/helper/salt"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 type noopFormatWriter struct {

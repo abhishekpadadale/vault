@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/sdk/helper/strutil"
 	"github.com/posener/complete"
 )
 

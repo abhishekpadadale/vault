@@ -8,12 +8,12 @@ import (
 	"time"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
-	"github.com/hashicorp/vault/sdk/database/helper/connutil"
-	"github.com/hashicorp/vault/sdk/database/helper/dbutil"
-	"github.com/hashicorp/vault/sdk/helper/certutil"
-	"github.com/hashicorp/vault/sdk/helper/parseutil"
-	"github.com/hashicorp/vault/sdk/helper/tlsutil"
+	"github.com/abhishekpadadale/vault/sdk/database/dbplugin"
+	"github.com/abhishekpadadale/vault/sdk/database/helper/connutil"
+	"github.com/abhishekpadadale/vault/sdk/database/helper/dbutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/certutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/parseutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/tlsutil"
 	influx "github.com/influxdata/influxdb/client/v2"
 	"github.com/mitchellh/mapstructure"
 )

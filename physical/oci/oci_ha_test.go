@@ -3,7 +3,7 @@ package oci
 
 import (
 	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/sdk/physical"
+	"github.com/abhishekpadadale/vault/sdk/physical"
 	"github.com/oracle/oci-go-sdk/common"
 	"github.com/oracle/oci-go-sdk/objectstorage"
 	"os"

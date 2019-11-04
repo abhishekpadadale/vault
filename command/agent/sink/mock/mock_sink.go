@@ -1,7 +1,7 @@
 package mock
 
 import (
-	"github.com/hashicorp/vault/command/agent/sink"
+	"github.com/abhishekpadadale/vault/command/agent/sink"
 )
 
 type mockSink struct {

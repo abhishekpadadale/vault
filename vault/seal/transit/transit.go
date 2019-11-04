@@ -10,8 +10,8 @@ import (
 	"github.com/armon/go-metrics"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/vault/seal"
+	"github.com/abhishekpadadale/vault/sdk/physical"
+	"github.com/abhishekpadadale/vault/vault/seal"
 )
 
 // Seal is a seal that leverages Vault's Transit secret

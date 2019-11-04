@@ -4,8 +4,8 @@ package ociauth
 import (
 	"context"
 	"fmt"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 	"github.com/oracle/oci-go-sdk/common/auth"
 	"sync"
 )

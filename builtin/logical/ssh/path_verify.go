@@ -3,9 +3,9 @@ package ssh
 import (
 	"context"
 
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func pathVerify(b *backend) *framework.Path {

@@ -26,7 +26,7 @@ password modes. This guide demonstrates the one-time SSH password mode.
 
 - [One-Time SSH Passwords](/docs/secrets/ssh/one-time-ssh-passwords.html)
 - [SSH Secrets Engine (API)](/api/secret/ssh/index.html)
-- [Vault SSH Helper](https://github.com/hashicorp/vault-ssh-helper)
+- [Vault SSH Helper](https://github.com/abhishekpadadale/vault-ssh-helper)
 
 ## Estimated Time to Complete
 
@@ -119,7 +119,7 @@ You will perform the following:
 (**Persona:** operations)
 
 The SSH secrets engine uses [Vault SSH
-Helper](https://github.com/hashicorp/vault-ssh-helper) to verify the OTP used
+Helper](https://github.com/abhishekpadadale/vault-ssh-helper) to verify the OTP used
 during the SSH authentication. Therefore, the helper agent must be installed
 onto every ***target host***.  
 
@@ -165,7 +165,7 @@ onto every ***target host***.
     allowed_roles = "*"
     ```
 
-    > Refer to the [documentation](https://github.com/hashicorp/vault-ssh-helper#vault-ssh-helper-configuration)
+    > Refer to the [documentation](https://github.com/abhishekpadadale/vault-ssh-helper#vault-ssh-helper-configuration)
     for the entire list of configuration properties.
 
 
@@ -186,7 +186,7 @@ onto every ***target host***.
     commented out in favor of using our custom configuration.
 
     > Refer to the
-    [documentation](https://github.com/hashicorp/vault-ssh-helper#pam-configuration)
+    [documentation](https://github.com/abhishekpadadale/vault-ssh-helper#pam-configuration)
     for details about these parameter settings.
 
 

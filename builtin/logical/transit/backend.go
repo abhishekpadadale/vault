@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/keysutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/helper/keysutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func Factory(ctx context.Context, conf *logical.BackendConfig) (logical.Backend, error) {

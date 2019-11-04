@@ -16,10 +16,10 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/hashicorp/vault/api"
-	logicaltest "github.com/hashicorp/vault/helper/testhelpers/logical"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/api"
+	logicaltest "github.com/abhishekpadadale/vault/helper/testhelpers/logical"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/vault"
 	"github.com/mitchellh/mapstructure"
 )
 

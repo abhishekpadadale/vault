@@ -21,7 +21,7 @@
 
 **See**
 
-- [Uses of TtlPicker](https://github.com/hashicorp/vault/search?l=Handlebars&q=TtlPicker)
-- [TtlPicker Source Code](https://github.com/hashicorp/vault/blob/master/ui/app/components/ttl-picker.js)
+- [Uses of TtlPicker](https://github.com/abhishekpadadale/vault/search?l=Handlebars&q=TtlPicker)
+- [TtlPicker Source Code](https://github.com/abhishekpadadale/vault/blob/master/ui/app/components/ttl-picker.js)
 
 ---

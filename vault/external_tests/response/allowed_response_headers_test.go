@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hashicorp/vault/api"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/api"
+	vaulthttp "github.com/abhishekpadadale/vault/http"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/vault"
 	"github.com/kr/pretty"
 )
 

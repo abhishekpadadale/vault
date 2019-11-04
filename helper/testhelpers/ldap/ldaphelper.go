@@ -3,8 +3,8 @@ package ldap
 import (
 	"fmt"
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/helper/testhelpers/docker"
-	"github.com/hashicorp/vault/sdk/helper/ldaputil"
+	"github.com/abhishekpadadale/vault/helper/testhelpers/docker"
+	"github.com/abhishekpadadale/vault/sdk/helper/ldaputil"
 	"github.com/ory/dockertest"
 	"testing"
 )

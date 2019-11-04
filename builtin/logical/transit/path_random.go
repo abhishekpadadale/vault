@@ -8,8 +8,8 @@ import (
 	"strconv"
 
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 const maxBytes = 128 * 1024

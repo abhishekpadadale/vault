@@ -3,8 +3,8 @@ package plugin
 import (
 	"context"
 	"errors"
-	"github.com/hashicorp/vault-plugin-secrets-ad/plugin/util"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault-plugin-secrets-ad/plugin/util"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 const (

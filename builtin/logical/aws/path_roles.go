@@ -12,10 +12,10 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws/arn"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/helper/consts"
+	"github.com/abhishekpadadale/vault/sdk/helper/strutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 var (

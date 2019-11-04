@@ -9,8 +9,8 @@ import (
 	"time"
 	"crypto/rand"
 
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/helper/jsonutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 	"github.com/mitchellh/copystructure"
 )
 

@@ -7,8 +7,8 @@ import (
 	"sync"
 
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 	rabbithole "github.com/michaelklishin/rabbit-hole"
 )
 

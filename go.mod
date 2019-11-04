@@ -1,12 +1,12 @@
-module github.com/hashicorp/vault
+module github.com/abhishekpadadale/vault
 
 go 1.12
 
 replace git.apache.org/thrift.git => github.com/apache/thrift v0.12.0
 
-replace github.com/hashicorp/vault/api => ./api
+replace github.com/abhishekpadadale/vault/api => ./api
 
-replace github.com/hashicorp/vault/sdk => ./sdk
+replace github.com/abhishekpadadale/vault/sdk => ./sdk
 
 require (
 	cloud.google.com/go v0.39.0
@@ -68,23 +68,23 @@ require (
 	github.com/hashicorp/nomad/api v0.0.0-20190412184103-1c38ced33adf
 	github.com/hashicorp/raft v1.1.2-0.20191002163536-9c6bd3e3eb17
 	github.com/hashicorp/raft-snapshot v1.0.2-0.20190827162939-8117efcc5aab
-	github.com/hashicorp/vault-plugin-auth-alicloud v0.5.2-0.20190814210027-93970f08f2ec
-	github.com/hashicorp/vault-plugin-auth-azure v0.5.2-0.20190814210035-08e00d801115
-	github.com/hashicorp/vault-plugin-auth-centrify v0.5.2-0.20190814210042-090ec2ed93ce
-	github.com/hashicorp/vault-plugin-auth-cf v0.0.0-20190821162840-1c2205826fee
-	github.com/hashicorp/vault-plugin-auth-gcp v0.5.2-0.20190814210049-1ccb3dc10102
-	github.com/hashicorp/vault-plugin-auth-jwt v0.5.2-0.20190815164639-5fa0eef3a023
-	github.com/hashicorp/vault-plugin-auth-kubernetes v0.5.2-0.20190826163451-8461c66275a9
-	github.com/hashicorp/vault-plugin-auth-oci v0.0.0-20190904175623-97c0c0187c5c
-	github.com/hashicorp/vault-plugin-database-elasticsearch v0.0.0-20190814210117-e079e01fbb93
-	github.com/hashicorp/vault-plugin-secrets-ad v0.6.0
-	github.com/hashicorp/vault-plugin-secrets-alicloud v0.5.2-0.20190814210129-4d18bec92f56
-	github.com/hashicorp/vault-plugin-secrets-azure v0.5.2-0.20190814210135-54b8afbc42ae
-	github.com/hashicorp/vault-plugin-secrets-gcp v0.5.3-0.20190814210141-d2086ff79b04
-	github.com/hashicorp/vault-plugin-secrets-gcpkms v0.5.2-0.20190814210149-315cdbf5de6e
-	github.com/hashicorp/vault-plugin-secrets-kv v0.5.2-0.20191017213228-e8cf7060a4d0
-	github.com/hashicorp/vault/api v1.0.5-0.20191017194845-99f7184d3326
-	github.com/hashicorp/vault/sdk v0.1.14-0.20191017211055-9bd3a27a36c4
+	github.com/abhishekpadadale/vault-plugin-auth-alicloud v0.5.2-0.20190814210027-93970f08f2ec
+	github.com/abhishekpadadale/vault-plugin-auth-azure v0.5.2-0.20190814210035-08e00d801115
+	github.com/abhishekpadadale/vault-plugin-auth-centrify v0.5.2-0.20190814210042-090ec2ed93ce
+	github.com/abhishekpadadale/vault-plugin-auth-cf v0.0.0-20190821162840-1c2205826fee
+	github.com/abhishekpadadale/vault-plugin-auth-gcp v0.5.2-0.20190814210049-1ccb3dc10102
+	github.com/abhishekpadadale/vault-plugin-auth-jwt v0.5.2-0.20190815164639-5fa0eef3a023
+	github.com/abhishekpadadale/vault-plugin-auth-kubernetes v0.5.2-0.20190826163451-8461c66275a9
+	github.com/abhishekpadadale/vault-plugin-auth-oci v0.0.0-20190904175623-97c0c0187c5c
+	github.com/abhishekpadadale/vault-plugin-database-elasticsearch v0.0.0-20190814210117-e079e01fbb93
+	github.com/abhishekpadadale/vault-plugin-secrets-ad v0.6.0
+	github.com/abhishekpadadale/vault-plugin-secrets-alicloud v0.5.2-0.20190814210129-4d18bec92f56
+	github.com/abhishekpadadale/vault-plugin-secrets-azure v0.5.2-0.20190814210135-54b8afbc42ae
+	github.com/abhishekpadadale/vault-plugin-secrets-gcp v0.5.3-0.20190814210141-d2086ff79b04
+	github.com/abhishekpadadale/vault-plugin-secrets-gcpkms v0.5.2-0.20190814210149-315cdbf5de6e
+	github.com/abhishekpadadale/vault-plugin-secrets-kv v0.5.2-0.20191017213228-e8cf7060a4d0
+	github.com/abhishekpadadale/vault/api v1.0.5-0.20191017194845-99f7184d3326
+	github.com/abhishekpadadale/vault/sdk v0.1.14-0.20191017211055-9bd3a27a36c4
 	github.com/influxdata/influxdb v0.0.0-20190411212539-d24b7ba8c4c4
 	github.com/jackc/fake v0.0.0-20150926172116-812a484cc733 // indirect
 	github.com/jackc/pgx v3.3.0+incompatible // indirect

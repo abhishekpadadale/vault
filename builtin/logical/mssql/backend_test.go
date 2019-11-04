@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	_ "github.com/denisenkom/go-mssqldb"
-	logicaltest "github.com/hashicorp/vault/helper/testhelpers/logical"
-	"github.com/hashicorp/vault/sdk/logical"
+	logicaltest "github.com/abhishekpadadale/vault/helper/testhelpers/logical"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 	"github.com/mitchellh/mapstructure"
 )
 

@@ -9,15 +9,15 @@ import (
 
 	"github.com/hashicorp/errwrap"
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/cidrutil"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/locksutil"
-	"github.com/hashicorp/vault/sdk/helper/parseutil"
-	"github.com/hashicorp/vault/sdk/helper/policyutil"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
-	"github.com/hashicorp/vault/sdk/helper/tokenutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/helper/cidrutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/consts"
+	"github.com/abhishekpadadale/vault/sdk/helper/locksutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/parseutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/policyutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/strutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/tokenutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 // roleStorageEntry stores all the options that are set on an role

@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/jsonutil"
 	"github.com/mitchellh/mapstructure"
 )
 

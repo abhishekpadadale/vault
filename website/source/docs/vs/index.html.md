@@ -16,7 +16,7 @@ other software choices.
 Due to the bias of the comparisons being on the Vault website, we attempt
 to only use facts. If you find something that is invalid or out of date
 in the comparisons, please
-[open an issue](https://github.com/hashicorp/vault/issues) and we'll
+[open an issue](https://github.com/abhishekpadadale/vault/issues) and we'll
 address it as soon as possible.
 
 Use the navigation on the left to read comparisons of Vault versus other

@@ -5,8 +5,8 @@ package vault
 import (
 	"context"
 
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/helper/namespace"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 type entPolicyStore struct{}

@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
-	"github.com/hashicorp/vault/sdk/helper/locksutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/helper/jsonutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/locksutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 const (

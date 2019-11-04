@@ -11,8 +11,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/sts"
 	"github.com/hashicorp/errwrap"
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
-	"github.com/hashicorp/vault/helper/awsutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/helper/awsutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 // NOTE: The caller is required to ensure that b.clientMutex is at least read locked

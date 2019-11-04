@@ -9,9 +9,9 @@ import (
 
 	"github.com/coreos/go-oidc"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/cidrutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/helper/cidrutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 	"gopkg.in/square/go-jose.v2/jwt"
 )
 

@@ -6,8 +6,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/plugin/pb"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/plugin/pb"
 )
 
 func newGRPCStorageClient(conn *grpc.ClientConn) *GRPCStorageClient {

@@ -6,9 +6,9 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/tokenutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/helper/tokenutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func pathRole(b *backend) *framework.Path {

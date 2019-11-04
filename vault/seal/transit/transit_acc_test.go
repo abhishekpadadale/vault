@@ -11,10 +11,10 @@ import (
 
 	log "github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/helper/testhelpers/docker"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/vault/seal/transit"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/helper/testhelpers/docker"
+	"github.com/abhishekpadadale/vault/sdk/helper/logging"
+	"github.com/abhishekpadadale/vault/vault/seal/transit"
 	"github.com/ory/dockertest"
 )
 

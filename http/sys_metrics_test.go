@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/armon/go-metrics"
-	"github.com/hashicorp/vault/helper/metricsutil"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/helper/metricsutil"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 func TestSysMetricsUnauthenticated(t *testing.T) {

@@ -6,12 +6,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/sdk/helper/license"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/vault/cluster"
-	"github.com/hashicorp/vault/vault/replication"
+	"github.com/abhishekpadadale/vault/helper/namespace"
+	"github.com/abhishekpadadale/vault/sdk/helper/license"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/physical"
+	"github.com/abhishekpadadale/vault/vault/cluster"
+	"github.com/abhishekpadadale/vault/vault/replication"
 	cache "github.com/patrickmn/go-cache"
 )
 

@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/go-test/deep"
-	"github.com/hashicorp/vault/helper/identity"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/helper/identity"
+	"github.com/abhishekpadadale/vault/helper/namespace"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func TestIdentityStore_FixOverwrittenMemberGroupIDs(t *testing.T) {

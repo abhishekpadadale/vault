@@ -20,7 +20,7 @@ working a version for Vault Enterprise and it will be available in the future.
 
 ## Helm Chart
 
-The [Vault Helm chart](https://github.com/hashicorp/vault-helm)
+The [Vault Helm chart](https://github.com/abhishekpadadale/vault-helm)
 is the recommended way to install and configure Vault on Kubernetes.
 In addition to running Vault itself, the Helm chart is the primary
 method for installing and configuring Vault to integrate with other
@@ -56,7 +56,7 @@ for additional configuration options.
 
 ```sh
 # Clone the chart repo
-$ git clone https://github.com/hashicorp/vault-helm.git
+$ git clone https://github.com/abhishekpadadale/vault-helm.git
 $ cd vault-helm
 
 # Checkout a tagged version

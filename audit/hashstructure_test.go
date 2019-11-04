@@ -11,10 +11,10 @@ import (
 
 	"github.com/go-test/deep"
 
-	"github.com/hashicorp/vault/sdk/helper/certutil"
-	"github.com/hashicorp/vault/sdk/helper/salt"
-	"github.com/hashicorp/vault/sdk/helper/wrapping"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/helper/certutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/salt"
+	"github.com/abhishekpadadale/vault/sdk/helper/wrapping"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 	"github.com/mitchellh/copystructure"
 )
 

@@ -9,8 +9,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/hashicorp/vault/helper/proxyutil"
-	"github.com/hashicorp/vault/helper/reload"
+	"github.com/abhishekpadadale/vault/helper/proxyutil"
+	"github.com/abhishekpadadale/vault/helper/reload"
 	"github.com/mitchellh/cli"
 )
 

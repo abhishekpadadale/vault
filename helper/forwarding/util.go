@@ -12,8 +12,8 @@ import (
 	"os"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hashicorp/vault/sdk/helper/compressutil"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/compressutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/jsonutil"
 )
 
 type bufCloser struct {

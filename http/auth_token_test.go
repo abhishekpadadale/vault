@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 func TestAuthTokenCreate(t *testing.T) {

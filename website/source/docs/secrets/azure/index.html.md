@@ -259,4 +259,4 @@ for more details.
 
 [api]: /api/secret/azure/index.html
 [config]: /api/secret/azure/index.html#configure
-[repo]: https://github.com/hashicorp/vault-plugin-secrets-azure
+[repo]: https://github.com/abhishekpadadale/vault-plugin-secrets-azure

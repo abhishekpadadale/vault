@@ -8,10 +8,10 @@ import (
 	"testing"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/sdk/physical/inmem"
+	"github.com/abhishekpadadale/vault/sdk/helper/logging"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/physical"
+	"github.com/abhishekpadadale/vault/sdk/physical/inmem"
 )
 
 var (

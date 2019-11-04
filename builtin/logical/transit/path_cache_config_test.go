@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 const targetCacheSize = 12345

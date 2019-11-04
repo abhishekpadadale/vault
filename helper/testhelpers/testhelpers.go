@@ -11,11 +11,11 @@ import (
 	"time"
 
 	raftlib "github.com/hashicorp/raft"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/helper/xor"
-	"github.com/hashicorp/vault/physical/raft"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/helper/namespace"
+	"github.com/abhishekpadadale/vault/helper/xor"
+	"github.com/abhishekpadadale/vault/physical/raft"
+	"github.com/abhishekpadadale/vault/vault"
 	"github.com/mitchellh/go-testing-interface"
 )
 

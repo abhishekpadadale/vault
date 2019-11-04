@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/sdk/helper/jsonutil"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 // Test wrapping functionality

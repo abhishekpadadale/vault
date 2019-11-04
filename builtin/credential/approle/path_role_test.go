@@ -11,9 +11,9 @@ import (
 
 	"github.com/go-test/deep"
 	"github.com/hashicorp/go-sockaddr"
-	"github.com/hashicorp/vault/sdk/helper/policyutil"
-	"github.com/hashicorp/vault/sdk/helper/tokenutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/helper/policyutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/tokenutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 	"github.com/mitchellh/mapstructure"
 )
 

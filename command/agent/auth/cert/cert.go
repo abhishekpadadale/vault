@@ -6,8 +6,8 @@ import (
 	"fmt"
 
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/command/agent/auth"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/command/agent/auth"
 )
 
 type certMethod struct {

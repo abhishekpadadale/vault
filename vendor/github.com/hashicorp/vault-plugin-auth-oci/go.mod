@@ -1,4 +1,4 @@
-module github.com/hashicorp/vault-plugin-auth-oci
+module github.com/abhishekpadadale/vault-plugin-auth-oci
 
 go 1.12
 
@@ -12,8 +12,8 @@ require (
 	github.com/hashicorp/go-immutable-radix v1.1.0 // indirect
 	github.com/hashicorp/go-version v1.2.0 // indirect
 	github.com/hashicorp/golang-lru v0.5.3 // indirect
-	github.com/hashicorp/vault/api v1.0.4
-	github.com/hashicorp/vault/sdk v0.1.13
+	github.com/abhishekpadadale/vault/api v1.0.4
+	github.com/abhishekpadadale/vault/sdk v0.1.13
 	github.com/oracle/oci-go-sdk v7.0.0+incompatible
 	github.com/pierrec/lz4 v2.2.6+incompatible // indirect
 	github.com/pkg/errors v0.8.1

@@ -7,7 +7,7 @@ import (
 
 	"github.com/go-test/deep"
 	ctconfig "github.com/hashicorp/consul-template/config"
-	"github.com/hashicorp/vault/sdk/helper/pointerutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/pointerutil"
 )
 
 func TestLoadConfigFile_AgentCache(t *testing.T) {

@@ -20,13 +20,13 @@ import (
 	"github.com/hashicorp/go-uuid"
 	"github.com/hashicorp/raft"
 	snapshot "github.com/hashicorp/raft-snapshot"
-	raftboltdb "github.com/hashicorp/vault/physical/raft/logstore"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault/cluster"
-	"github.com/hashicorp/vault/vault/seal"
+	raftboltdb "github.com/abhishekpadadale/vault/physical/raft/logstore"
+	"github.com/abhishekpadadale/vault/sdk/helper/consts"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/vault/cluster"
+	"github.com/abhishekpadadale/vault/vault/seal"
 
-	"github.com/hashicorp/vault/sdk/physical"
+	"github.com/abhishekpadadale/vault/sdk/physical"
 )
 
 // EnvVaultRaftNodeID is used to fetch the Raft node ID from the environment.

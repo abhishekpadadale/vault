@@ -18,15 +18,15 @@ These libraries are officially maintained by HashiCorp.
 
 ### Go
 
-* [Vault Go Client](https://github.com/hashicorp/vault/tree/master/api)
+* [Vault Go Client](https://github.com/abhishekpadadale/vault/tree/master/api)
 
 ```shell
-$ go get github.com/hashicorp/vault/api
+$ go get github.com/abhishekpadadale/vault/api
 ```
 
 ### Ruby
 
-* [Vault Ruby Client](https://github.com/hashicorp/vault-ruby)
+* [Vault Ruby Client](https://github.com/abhishekpadadale/vault-ruby)
 
 ```shell
 $ gem install vault

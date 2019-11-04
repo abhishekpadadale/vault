@@ -6,9 +6,9 @@ import (
 
 	log "github.com/hashicorp/go-hclog"
 	plugin "github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/vault/sdk/helper/pluginutil"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/plugin/pb"
+	"github.com/abhishekpadadale/vault/sdk/helper/pluginutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/plugin/pb"
 	"google.golang.org/grpc"
 )
 

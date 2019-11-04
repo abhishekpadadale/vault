@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"github.com/go-test/deep"
-	"github.com/hashicorp/vault/helper/pgpkeys"
-	"github.com/hashicorp/vault/helper/xor"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/helper/pgpkeys"
+	"github.com/abhishekpadadale/vault/helper/xor"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 func TestSysGenerateRootAttempt_Status(t *testing.T) {

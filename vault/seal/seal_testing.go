@@ -3,8 +3,8 @@ package seal
 import (
 	"context"
 
-	"github.com/hashicorp/vault/helper/xor"
-	"github.com/hashicorp/vault/sdk/physical"
+	"github.com/abhishekpadadale/vault/helper/xor"
+	"github.com/abhishekpadadale/vault/sdk/physical"
 )
 
 type TestSeal struct {

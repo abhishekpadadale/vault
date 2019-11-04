@@ -9,8 +9,8 @@ import (
 	log "github.com/hashicorp/go-hclog"
 
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/physical"
+	"github.com/abhishekpadadale/vault/sdk/helper/logging"
+	"github.com/abhishekpadadale/vault/sdk/physical"
 	"github.com/ncw/swift"
 )
 

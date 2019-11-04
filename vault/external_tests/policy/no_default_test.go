@@ -8,11 +8,11 @@ import (
 
 	"github.com/go-test/deep"
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/builtin/credential/ldap"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/builtin/credential/ldap"
+	vaulthttp "github.com/abhishekpadadale/vault/http"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 func TestNoDefaultPolicy(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/ghodss/yaml"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/sdk/helper/jsonutil"
 )
 
 var output string

@@ -17,13 +17,13 @@ import (
 	"golang.org/x/net/http2"
 
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
-	"github.com/hashicorp/vault/api"
-	credCert "github.com/hashicorp/vault/builtin/credential/cert"
-	"github.com/hashicorp/vault/builtin/logical/transit"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/keysutil"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/api"
+	credCert "github.com/abhishekpadadale/vault/builtin/credential/cert"
+	"github.com/abhishekpadadale/vault/builtin/logical/transit"
+	"github.com/abhishekpadadale/vault/sdk/helper/consts"
+	"github.com/abhishekpadadale/vault/sdk/helper/keysutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 func TestHTTP_Fallback_Bad_Address(t *testing.T) {

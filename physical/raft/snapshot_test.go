@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/hashicorp/raft"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/physical"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/physical"
 )
 
 type idAddr struct {

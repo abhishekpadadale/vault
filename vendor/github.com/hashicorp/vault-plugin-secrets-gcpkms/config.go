@@ -3,8 +3,8 @@ package gcpkms
 import (
 	"strings"
 
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/helper/strutil"
 )
 
 const (

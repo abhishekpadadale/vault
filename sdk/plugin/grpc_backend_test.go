@@ -8,9 +8,9 @@ import (
 
 	log "github.com/hashicorp/go-hclog"
 	gplugin "github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/plugin/mock"
+	"github.com/abhishekpadadale/vault/sdk/helper/logging"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/plugin/mock"
 )
 
 func TestGRPCBackendPlugin_impl(t *testing.T) {

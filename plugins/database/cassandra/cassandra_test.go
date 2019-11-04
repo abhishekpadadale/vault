@@ -10,8 +10,8 @@ import (
 
 	"github.com/gocql/gocql"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/helper/testhelpers/docker"
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
+	"github.com/abhishekpadadale/vault/helper/testhelpers/docker"
+	"github.com/abhishekpadadale/vault/sdk/database/dbplugin"
 	"github.com/ory/dockertest"
 )
 

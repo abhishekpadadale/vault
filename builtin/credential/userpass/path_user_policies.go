@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/policyutil"
-	"github.com/hashicorp/vault/sdk/helper/tokenutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/helper/policyutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/tokenutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func pathUserPolicies(b *backend) *framework.Path {

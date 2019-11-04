@@ -10,18 +10,18 @@ import (
 
 	hclog "github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/vault/api"
-	vaultcert "github.com/hashicorp/vault/builtin/credential/cert"
-	"github.com/hashicorp/vault/command/agent/auth"
-	agentcert "github.com/hashicorp/vault/command/agent/auth/cert"
-	"github.com/hashicorp/vault/command/agent/sink"
-	"github.com/hashicorp/vault/command/agent/sink/file"
-	"github.com/hashicorp/vault/helper/dhutil"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/api"
+	vaultcert "github.com/abhishekpadadale/vault/builtin/credential/cert"
+	"github.com/abhishekpadadale/vault/command/agent/auth"
+	agentcert "github.com/abhishekpadadale/vault/command/agent/auth/cert"
+	"github.com/abhishekpadadale/vault/command/agent/sink"
+	"github.com/abhishekpadadale/vault/command/agent/sink/file"
+	"github.com/abhishekpadadale/vault/helper/dhutil"
+	vaulthttp "github.com/abhishekpadadale/vault/http"
+	"github.com/abhishekpadadale/vault/sdk/helper/jsonutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/logging"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 func TestCertWithNoNAmeEndToEnd(t *testing.T) {

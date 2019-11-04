@@ -87,7 +87,7 @@ The contents of `data.json` in this example are:
  "full_name" : "Hashicorp Vault",
  "metadata" : {
    "plugin_name": "Vault Plugin Database Elasticsearch",
-   "plugin_url": "https://github.com/hashicorp/vault-plugin-database-elasticsearch"
+   "plugin_url": "https://github.com/abhishekpadadale/vault-plugin-database-elasticsearch"
  }
 }
 ```

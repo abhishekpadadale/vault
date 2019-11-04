@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func pathListRoles(b *backend) *framework.Path {

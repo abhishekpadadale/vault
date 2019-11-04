@@ -18,12 +18,12 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-sockaddr"
 	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/helper/identity"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/sdk/helper/locksutil"
-	"github.com/hashicorp/vault/sdk/helper/parseutil"
-	"github.com/hashicorp/vault/sdk/helper/tokenutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/helper/identity"
+	"github.com/abhishekpadadale/vault/helper/namespace"
+	"github.com/abhishekpadadale/vault/sdk/helper/locksutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/parseutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/tokenutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 	"github.com/mitchellh/mapstructure"
 )
 

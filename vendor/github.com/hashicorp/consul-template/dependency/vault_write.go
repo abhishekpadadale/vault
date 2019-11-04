@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/vault/api"
+	"github.com/abhishekpadadale/vault/api"
 	"github.com/pkg/errors"
 )
 

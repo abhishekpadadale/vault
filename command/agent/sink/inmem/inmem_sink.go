@@ -4,8 +4,8 @@ import (
 	"errors"
 
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/command/agent/cache"
-	"github.com/hashicorp/vault/command/agent/sink"
+	"github.com/abhishekpadadale/vault/command/agent/cache"
+	"github.com/abhishekpadadale/vault/command/agent/sink"
 	"go.uber.org/atomic"
 )
 

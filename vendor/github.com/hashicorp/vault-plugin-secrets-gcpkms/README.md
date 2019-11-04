@@ -61,7 +61,7 @@ instructions are only useful if you want to develop against the plugin.**
 1. Clone the repo:
 
     ```text
-    $ git clone https://github.com/hashicorp/vault-plugin-secrets-gcpkms
+    $ git clone https://github.com/abhishekpadadale/vault-plugin-secrets-gcpkms
     $ cd vault-plugin-secrets-gcpkms
     ```
 

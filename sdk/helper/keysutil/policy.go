@@ -34,10 +34,10 @@ import (
 
 	"github.com/hashicorp/errwrap"
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/sdk/helper/errutil"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
-	"github.com/hashicorp/vault/sdk/helper/kdf"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/helper/errutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/jsonutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/kdf"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 // Careful with iota; don't put anything before it in this const block because

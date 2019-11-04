@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"github.com/gocql/gocql"
-	"github.com/hashicorp/vault/helper/testhelpers/docker"
-	logicaltest "github.com/hashicorp/vault/helper/testhelpers/logical"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/helper/testhelpers/docker"
+	logicaltest "github.com/abhishekpadadale/vault/helper/testhelpers/logical"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 	"github.com/mitchellh/mapstructure"
 	"github.com/ory/dockertest"
 )

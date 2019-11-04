@@ -19,7 +19,7 @@ It should only be used inside of `Toolbar`.
 
 **See**
 
-- [Uses of ToolbarFilters](https://github.com/hashicorp/vault/search?l=Handlebars&q=ToolbarFilters+OR+toolbar-filters)
-- [ToolbarFilters Source Code](https://github.com/hashicorp/vault/blob/master/ui/app/components/toolbar-filters.js)
+- [Uses of ToolbarFilters](https://github.com/abhishekpadadale/vault/search?l=Handlebars&q=ToolbarFilters+OR+toolbar-filters)
+- [ToolbarFilters Source Code](https://github.com/abhishekpadadale/vault/blob/master/ui/app/components/toolbar-filters.js)
 
 ---

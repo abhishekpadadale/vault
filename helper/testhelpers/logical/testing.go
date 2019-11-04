@@ -12,13 +12,13 @@ import (
 	log "github.com/hashicorp/go-hclog"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/physical/inmem"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/helper/namespace"
+	"github.com/abhishekpadadale/vault/http"
+	"github.com/abhishekpadadale/vault/sdk/helper/logging"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/physical/inmem"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 // TestEnvVar must be set to a non-empty value for acceptance tests to run.

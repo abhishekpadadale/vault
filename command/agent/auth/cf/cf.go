@@ -8,10 +8,10 @@ import (
 	"os"
 	"time"
 
-	cf "github.com/hashicorp/vault-plugin-auth-cf"
-	"github.com/hashicorp/vault-plugin-auth-cf/signatures"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/command/agent/auth"
+	cf "github.com/abhishekpadadale/vault-plugin-auth-cf"
+	"github.com/abhishekpadadale/vault-plugin-auth-cf/signatures"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/command/agent/auth"
 )
 
 type cfMethod struct {

@@ -8,11 +8,11 @@ import (
 	"github.com/go-test/deep"
 	"github.com/golang/protobuf/ptypes"
 	uuid "github.com/hashicorp/go-uuid"
-	credGithub "github.com/hashicorp/vault/builtin/credential/github"
-	"github.com/hashicorp/vault/helper/identity"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/helper/storagepacker"
-	"github.com/hashicorp/vault/sdk/logical"
+	credGithub "github.com/abhishekpadadale/vault/builtin/credential/github"
+	"github.com/abhishekpadadale/vault/helper/identity"
+	"github.com/abhishekpadadale/vault/helper/namespace"
+	"github.com/abhishekpadadale/vault/helper/storagepacker"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func TestIdentityStore_UnsealingWhenConflictingAliasNames(t *testing.T) {

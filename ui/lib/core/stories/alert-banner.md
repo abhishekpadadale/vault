@@ -19,7 +19,7 @@
 
 **See**
 
-- [Uses of AlertBanner](https://github.com/hashicorp/vault/search?l=Handlebars&q=AlertBanner+OR+alert-banner)
-- [AlertBanner Source Code](https://github.com/hashicorp/vault/blob/master/ui/lib/core/addon/components/alert-banner.js)
+- [Uses of AlertBanner](https://github.com/abhishekpadadale/vault/search?l=Handlebars&q=AlertBanner+OR+alert-banner)
+- [AlertBanner Source Code](https://github.com/abhishekpadadale/vault/blob/master/ui/lib/core/addon/components/alert-banner.js)
 
 ---

@@ -69,7 +69,7 @@ Vault.
 To perform the tasks described in this guide:
 
 - Install [HashiCorp Vagrant](https://www.vagrantup.com/intro/getting-started/install.html)
-- Clone or download the demo assets from the [hashicorp/vault-guides](https://github.com/hashicorp/vault-guides/tree/master/secrets/spring-cloud-vault)
+- Clone or download the demo assets from the [hashicorp/vault-guides](https://github.com/abhishekpadadale/vault-guides/tree/master/secrets/spring-cloud-vault)
 GitHub repository
 
 

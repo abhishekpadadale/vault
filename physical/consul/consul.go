@@ -26,11 +26,11 @@ import (
 	"github.com/hashicorp/consul/api"
 	"github.com/hashicorp/errwrap"
 	multierror "github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/parseutil"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
-	"github.com/hashicorp/vault/sdk/helper/tlsutil"
-	"github.com/hashicorp/vault/sdk/physical"
+	"github.com/abhishekpadadale/vault/sdk/helper/consts"
+	"github.com/abhishekpadadale/vault/sdk/helper/parseutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/strutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/tlsutil"
+	"github.com/abhishekpadadale/vault/sdk/physical"
 )
 
 const (

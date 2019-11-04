@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/ptypes"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/locksutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/helper/locksutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 // pathsDelete returns the path configuration for the delete and undelete paths

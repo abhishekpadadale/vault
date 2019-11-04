@@ -4,10 +4,10 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/helper/pgpkeys"
-	"github.com/hashicorp/vault/helper/xor"
-	"github.com/hashicorp/vault/sdk/helper/base62"
+	"github.com/abhishekpadadale/vault/helper/namespace"
+	"github.com/abhishekpadadale/vault/helper/pgpkeys"
+	"github.com/abhishekpadadale/vault/helper/xor"
+	"github.com/abhishekpadadale/vault/sdk/helper/base62"
 )
 
 func TestCore_GenerateRoot_Lifecycle(t *testing.T) {

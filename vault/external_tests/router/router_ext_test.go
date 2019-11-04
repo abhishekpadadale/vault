@@ -3,12 +3,12 @@ package router
 import (
 	"testing"
 
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/builtin/credential/userpass"
-	"github.com/hashicorp/vault/builtin/logical/pki"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/builtin/credential/userpass"
+	"github.com/abhishekpadadale/vault/builtin/logical/pki"
+	vaulthttp "github.com/abhishekpadadale/vault/http"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 func TestRouter_MountSubpath_Checks(t *testing.T) {

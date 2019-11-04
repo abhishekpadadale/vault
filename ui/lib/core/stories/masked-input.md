@@ -25,7 +25,7 @@
 
 **See**
 
-- [Uses of MaskedInput](https://github.com/hashicorp/vault/search?l=Handlebars&q=MaskedInput)
-- [MaskedInput Source Code](https://github.com/hashicorp/vault/blob/master/ui/app/components/masked-input.js)
+- [Uses of MaskedInput](https://github.com/abhishekpadadale/vault/search?l=Handlebars&q=MaskedInput)
+- [MaskedInput Source Code](https://github.com/abhishekpadadale/vault/blob/master/ui/app/components/masked-input.js)
 
 ---

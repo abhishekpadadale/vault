@@ -94,7 +94,7 @@ written.
 
 If writing a client that uses this feature, it will likely be helpful to look
 at the
-[dhutil](https://github.com/hashicorp/vault/blob/master/helper/dhutil/dhutil.go)
+[dhutil](https://github.com/abhishekpadadale/vault/blob/master/helper/dhutil/dhutil.go)
 library. This shows the expected format of the public key input and envelope
 output formats.
 
@@ -125,7 +125,7 @@ These are common configuration values that live within the `method` block:
   sinks, but does not allow the agent to keep the token renewed or
   automatically reauthenticate when it expires. Rather than a simple string,
   the written value will be a JSON-encoded
-  [SecretWrapInfo](https://godoc.org/github.com/hashicorp/vault/api#SecretWrapInfo)
+  [SecretWrapInfo](https://godoc.org/github.com/abhishekpadadale/vault/api#SecretWrapInfo)
   structure. Values can be an integer number of seconds or a stringish value
   like `5m`.
 
@@ -145,7 +145,7 @@ These configuration values are common to all Sinks:
   the method, but allows the agent to keep the token renewed and automatically
   reauthenticate when it expires. Rather than a simple string, the written
   value will be a JSON-encoded
-  [SecretWrapInfo](https://godoc.org/github.com/hashicorp/vault/api#SecretWrapInfo)
+  [SecretWrapInfo](https://godoc.org/github.com/abhishekpadadale/vault/api#SecretWrapInfo)
   structure. Values can be an integer number of seconds or a stringish value
   like `5m`.
 

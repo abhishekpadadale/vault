@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 func TestSysConfigCors(t *testing.T) {

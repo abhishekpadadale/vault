@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func BenchmarkBackendRoute(b *testing.B) {

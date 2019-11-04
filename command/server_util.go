@@ -7,10 +7,10 @@ import (
 	"io"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/command/server"
-	"github.com/hashicorp/vault/vault"
-	vaultseal "github.com/hashicorp/vault/vault/seal"
-	shamirseal "github.com/hashicorp/vault/vault/seal/shamir"
+	"github.com/abhishekpadadale/vault/command/server"
+	"github.com/abhishekpadadale/vault/vault"
+	vaultseal "github.com/abhishekpadadale/vault/vault/seal"
+	shamirseal "github.com/abhishekpadadale/vault/vault/seal/shamir"
 	"github.com/pkg/errors"
 )
 

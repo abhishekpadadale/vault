@@ -3,8 +3,8 @@ package transit
 import (
 	"context"
 
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func (b *backend) pathRestore() *framework.Path {

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/vault/api"
-	kvbuilder "github.com/hashicorp/vault/helper/kv-builder"
+	"github.com/abhishekpadadale/vault/api"
+	kvbuilder "github.com/abhishekpadadale/vault/helper/kv-builder"
 	"github.com/kr/text"
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/mitchellh/mapstructure"

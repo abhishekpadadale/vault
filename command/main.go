@@ -12,8 +12,8 @@ import (
 	"text/tabwriter"
 
 	"github.com/fatih/color"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/command/token"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/command/token"
 	colorable "github.com/mattn/go-colorable"
 	"github.com/mitchellh/cli"
 )

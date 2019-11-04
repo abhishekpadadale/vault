@@ -14,7 +14,7 @@ description: |-
 * The [Terraform Vault provider](https://www.terraform.io/docs/providers/vault/index.html) can read from, write to, and configure Vault from [HashiCorp Terraform](https://www.terraform.io/)
 * [consul-template](https://github.com/hashicorp/consul-template) is a template renderer, notifier, and supervisor for HashiCorp Consul and Vault data
 * [envconsul](https://github.com/hashicorp/envconsul) allows you to read and set environmental variables for processes from Consul and Vault data
-* The [vault-ssh-helper](https://github.com/hashicorp/vault-ssh-helper) can be used to enable one-time passwords for SSH authentication via Vault
+* The [vault-ssh-helper](https://github.com/abhishekpadadale/vault-ssh-helper) can be used to enable one-time passwords for SSH authentication via Vault
 
 ## Third-Party Tools
 
@@ -36,4 +36,4 @@ The following list of tools is maintained by the community of Vault users; Hashi
 * [Vault-CRD](https://vault.koudingspawn.de/) - Synchronize secrets stored in HashiCorp Vault to Kubernetes Secrets for better GitOps without secrets stored in git manifest files.
 * [nc-vault-env](https://github.com/namecheap/nc-vault-env) - JS CLI tool that fetches secrets in parallel, puts them into the environment and then `exec`s the process that needs them. Supports auth token renewal, multiple auth backends, verbose logging and dummy mode.
 
-Want to add your own project, or one that you use? Additions are welcome via [pull requests](https://github.com/hashicorp/vault/blob/master/website/source/api/relatedtools.html.md).
+Want to add your own project, or one that you use? Additions are welcome via [pull requests](https://github.com/abhishekpadadale/vault/blob/master/website/source/api/relatedtools.html.md).

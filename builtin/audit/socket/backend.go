@@ -10,10 +10,10 @@ import (
 	"time"
 
 	multierror "github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/vault/audit"
-	"github.com/hashicorp/vault/sdk/helper/parseutil"
-	"github.com/hashicorp/vault/sdk/helper/salt"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/audit"
+	"github.com/abhishekpadadale/vault/sdk/helper/parseutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/salt"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func Factory(ctx context.Context, conf *audit.BackendConfig) (audit.Backend, error) {

@@ -68,7 +68,7 @@ If you have never worked with Go before, you will have to complete the
 following steps listed in the README, under the section [Developing Vault][1].
 
 
-[1]: https://github.com/hashicorp/vault#developing-vault
+[1]: https://github.com/abhishekpadadale/vault#developing-vault
 [2]: https://groups.google.com/group/vault-tool
 
 ## Contributor License Agreement

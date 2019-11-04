@@ -7,8 +7,8 @@ import (
 	"time"
 
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/helper/jsonutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 // WALPrefix is the prefix within Storage where WAL entries will be written.

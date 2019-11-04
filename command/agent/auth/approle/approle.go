@@ -10,9 +10,9 @@ import (
 
 	"github.com/hashicorp/errwrap"
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/command/agent/auth"
-	"github.com/hashicorp/vault/sdk/helper/parseutil"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/command/agent/auth"
+	"github.com/abhishekpadadale/vault/sdk/helper/parseutil"
 )
 
 type approleMethod struct {

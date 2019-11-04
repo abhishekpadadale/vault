@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	saltpkg "github.com/hashicorp/vault/sdk/helper/salt"
-	"github.com/hashicorp/vault/sdk/logical"
+	saltpkg "github.com/abhishekpadadale/vault/sdk/helper/salt"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 // DEPRECATED: Don't use this. It's too inflexible, nearly impossible to use

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/database/dbplugin"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/helper/strutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func pathCredsCreate(b *databaseBackend) []*framework.Path {

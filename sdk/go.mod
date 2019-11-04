@@ -1,4 +1,4 @@
-module github.com/hashicorp/vault/sdk
+module github.com/abhishekpadadale/vault/sdk
 
 go 1.12
 

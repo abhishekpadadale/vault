@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/helper/pgpkeys"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/helper/pgpkeys"
 	"github.com/mitchellh/cli"
 	"github.com/posener/complete"
 

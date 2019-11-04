@@ -3,7 +3,7 @@
 package vault
 
 import (
-	"github.com/hashicorp/vault/helper/namespace"
+	"github.com/abhishekpadadale/vault/helper/namespace"
 )
 
 func (ts *TokenStore) baseView(ns *namespace.Namespace) *BarrierView {

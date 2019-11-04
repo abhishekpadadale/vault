@@ -6,11 +6,11 @@ import (
 	"time"
 
 	multierror "github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
-	"github.com/hashicorp/vault/sdk/database/helper/credsutil"
-	"github.com/hashicorp/vault/sdk/database/helper/dbutil"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/sdk/database/dbplugin"
+	"github.com/abhishekpadadale/vault/sdk/database/helper/credsutil"
+	"github.com/abhishekpadadale/vault/sdk/database/helper/dbutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/strutil"
 	influx "github.com/influxdata/influxdb/client/v2"
 )
 

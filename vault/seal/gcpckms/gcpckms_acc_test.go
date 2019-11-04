@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/helper/logging"
+	"github.com/abhishekpadadale/vault/sdk/helper/logging"
 	context "golang.org/x/net/context"
 )
 

@@ -14,12 +14,12 @@ import (
 	multierror "github.com/hashicorp/go-multierror"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
-	"github.com/hashicorp/vault/sdk/helper/pluginutil"
-	"github.com/hashicorp/vault/sdk/logical"
-	backendplugin "github.com/hashicorp/vault/sdk/plugin"
+	"github.com/abhishekpadadale/vault/sdk/database/dbplugin"
+	"github.com/abhishekpadadale/vault/sdk/helper/consts"
+	"github.com/abhishekpadadale/vault/sdk/helper/jsonutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/pluginutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	backendplugin "github.com/abhishekpadadale/vault/sdk/plugin"
 )
 
 var (

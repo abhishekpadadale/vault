@@ -16,10 +16,10 @@ import (
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
 	hclog "github.com/hashicorp/go-hclog"
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/api"
-	awsauth "github.com/hashicorp/vault/builtin/credential/aws"
-	"github.com/hashicorp/vault/command/agent/auth"
-	"github.com/hashicorp/vault/helper/awsutil"
+	"github.com/abhishekpadadale/vault/api"
+	awsauth "github.com/abhishekpadadale/vault/builtin/credential/aws"
+	"github.com/abhishekpadadale/vault/command/agent/auth"
+	"github.com/abhishekpadadale/vault/helper/awsutil"
 )
 
 const (

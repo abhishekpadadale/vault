@@ -7,10 +7,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hashicorp/vault/helper/forwarding"
-	"github.com/hashicorp/vault/physical/raft"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/vault/replication"
+	"github.com/abhishekpadadale/vault/helper/forwarding"
+	"github.com/abhishekpadadale/vault/physical/raft"
+	"github.com/abhishekpadadale/vault/sdk/helper/consts"
+	"github.com/abhishekpadadale/vault/vault/replication"
 	cache "github.com/patrickmn/go-cache"
 )
 

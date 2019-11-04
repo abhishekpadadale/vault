@@ -12,7 +12,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/hashicorp/vault/api"
+	"github.com/abhishekpadadale/vault/api"
 )
 
 const defaultMount = "oidc"

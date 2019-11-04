@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 func TestListener(tb testing.TB) (net.Listener, string) {

@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/vault/helper/testhelpers/mongodb"
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
+	"github.com/abhishekpadadale/vault/helper/testhelpers/mongodb"
+	"github.com/abhishekpadadale/vault/sdk/database/dbplugin"
 	"gopkg.in/mgo.v2"
 )
 

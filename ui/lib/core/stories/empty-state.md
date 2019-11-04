@@ -18,7 +18,7 @@ encounters a state that would usually be blank.
 
 **See**
 
-- [Uses of EmptyState](https://github.com/hashicorp/vault/search?l=Handlebars&q=EmptyState)
-- [EmptyState Source Code](https://github.com/hashicorp/vault/blob/master/ui/app/components/empty-state.js)
+- [Uses of EmptyState](https://github.com/abhishekpadadale/vault/search?l=Handlebars&q=EmptyState)
+- [EmptyState Source Code](https://github.com/abhishekpadadale/vault/blob/master/ui/app/components/empty-state.js)
 
 ---

@@ -3,8 +3,8 @@ package http
 import (
 	"net/http"
 
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/helper/namespace"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 var (

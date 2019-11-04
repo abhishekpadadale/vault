@@ -15,9 +15,9 @@ package mfa
 import (
 	"context"
 
-	"github.com/hashicorp/vault/helper/mfa/duo"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/helper/mfa/duo"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 // MFAPaths returns paths to wrap the original login path and configure MFA.

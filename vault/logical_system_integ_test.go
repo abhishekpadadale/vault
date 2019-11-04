@@ -9,16 +9,16 @@ import (
 	"time"
 
 	"github.com/go-test/deep"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/builtin/plugin"
-	"github.com/hashicorp/vault/helper/namespace"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/pluginutil"
-	"github.com/hashicorp/vault/sdk/logical"
-	lplugin "github.com/hashicorp/vault/sdk/plugin"
-	"github.com/hashicorp/vault/sdk/plugin/mock"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/builtin/plugin"
+	"github.com/abhishekpadadale/vault/helper/namespace"
+	vaulthttp "github.com/abhishekpadadale/vault/http"
+	"github.com/abhishekpadadale/vault/sdk/helper/consts"
+	"github.com/abhishekpadadale/vault/sdk/helper/pluginutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	lplugin "github.com/abhishekpadadale/vault/sdk/plugin"
+	"github.com/abhishekpadadale/vault/sdk/plugin/mock"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 const (

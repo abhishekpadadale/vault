@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/command/config"
-	"github.com/hashicorp/vault/command/token"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/command/config"
+	"github.com/abhishekpadadale/vault/command/token"
 	"github.com/mitchellh/cli"
 )
 

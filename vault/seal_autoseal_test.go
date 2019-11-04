@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	proto "github.com/golang/protobuf/proto"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/vault/seal"
+	"github.com/abhishekpadadale/vault/sdk/physical"
+	"github.com/abhishekpadadale/vault/vault/seal"
 )
 
 // phy implements physical.Backend. It maps keys to a slice of entries.

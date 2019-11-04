@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/helper/namespace"
+	"github.com/abhishekpadadale/vault/helper/namespace"
 )
 
 var (

@@ -76,7 +76,7 @@ considered as _Trusted Entities_, the same pattern applies.
 
 For example:
 
-- With Chef, you might use the [Vault Ruby Gem](https://github.com/hashicorp/vault-ruby)
+- With Chef, you might use the [Vault Ruby Gem](https://github.com/abhishekpadadale/vault-ruby)
   for simplified interaction with Vault APIs
 - Terraform provides a Vault provider: [Provider: Vault - Terraform by HashiCorp](https://www.terraform.io/docs/providers/vault/index.html)
 - For Jenkins, you might use the Vault CLI or APIs directly, as described here:
@@ -98,7 +98,7 @@ The following AWS resources are required to perform this demo:
 ### Download demo assets
 
 Clone or download the demo assets from the
-[hashicorp/vault-guides](https://github.com/hashicorp/vault-guides/tree/master/identity/vault-chef-approle)
+[hashicorp/vault-guides](https://github.com/abhishekpadadale/vault-guides/tree/master/identity/vault-chef-approle)
 GitHub repository to perform the steps described in this guide.
 
 The following assets can be found in the repository:
@@ -903,7 +903,7 @@ demonstrated in the code:
     - [Associated GitHub repository](https://github.com/sethvargo/vault-chef-webinar)
 - [Vault AppRole Authentication written by Alan Thatcher](http://blog.alanthatcher.io/vault-approle-authentication/)
 - [Integrating Chef and HashiCorp Vault written by Alan Thatcher](http://blog.alanthatcher.io/integrating-chef-and-hashicorp-vault/)
-- [Vault Ruby Client](https://github.com/hashicorp/vault-ruby)
+- [Vault Ruby Client](https://github.com/abhishekpadadale/vault-ruby)
 
 
 ## Next Steps

@@ -3,10 +3,10 @@ package seal
 import (
 	"github.com/hashicorp/errwrap"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/command/server"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
-	"github.com/hashicorp/vault/vault/seal/alicloudkms"
+	"github.com/abhishekpadadale/vault/command/server"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/vault"
+	"github.com/abhishekpadadale/vault/vault/seal/alicloudkms"
 )
 
 func configureAliCloudKMSSeal(configSeal *server.Seal, infoKeys *[]string, info *map[string]string, logger log.Logger, inseal vault.Seal) (vault.Seal, error) {

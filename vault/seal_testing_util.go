@@ -2,9 +2,9 @@ package vault
 
 import (
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/vault/seal"
-	shamirseal "github.com/hashicorp/vault/vault/seal/shamir"
+	"github.com/abhishekpadadale/vault/sdk/helper/logging"
+	"github.com/abhishekpadadale/vault/vault/seal"
+	shamirseal "github.com/abhishekpadadale/vault/vault/seal/shamir"
 	testing "github.com/mitchellh/go-testing-interface"
 )
 

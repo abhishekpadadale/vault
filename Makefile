@@ -89,7 +89,7 @@ cover:
 # any common errors.
 vet:
 	@go list -f '{{.Dir}}' ./... | grep -v /vendor/ \
-		| grep -v '.*github.com/hashicorp/vault$$' \
+		| grep -v '.*github.com/abhishekpadadale/vault$$' \
 		| xargs go vet ; if [ $$? -eq 1 ]; then \
 			echo ""; \
 			echo "Vet found suspicious constructs. Please check the reported constructs"; \

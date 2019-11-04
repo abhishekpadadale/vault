@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/hashicorp/vault/sdk/helper/strutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/strutil"
 )
 
 var ErrInvalidCertParams = errors.New("invalid certificate parameters")

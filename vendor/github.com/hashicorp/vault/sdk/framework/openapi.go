@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/helper/wrapping"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/version"
+	"github.com/abhishekpadadale/vault/sdk/helper/wrapping"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/version"
 	"github.com/mitchellh/mapstructure"
 )
 

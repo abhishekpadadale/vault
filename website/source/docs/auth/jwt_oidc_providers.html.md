@@ -14,7 +14,7 @@ information, see the [Vault JWT/OIDC method documentation](https://www.vaultproj
 OIDC providers are often highly configurable and you should become familiar with
 their recommended settings and best practices. The instructions below are
 largely community-driven and intended to help you get started. Corrections
-and additions may be submitted via the [Vault Github repository](https://github.com/hashicorp/vault).
+and additions may be submitted via the [Vault Github repository](https://github.com/abhishekpadadale/vault).
 
 ## Azure Active Directory (AAD)
 Reference: [Azure Active Directory v2.0 and the OpenID Connect protocol](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-protocols-oidc)

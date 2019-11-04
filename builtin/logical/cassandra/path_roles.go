@@ -7,8 +7,8 @@ import (
 
 	"github.com/fatih/structs"
 	"github.com/gocql/gocql"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 const (

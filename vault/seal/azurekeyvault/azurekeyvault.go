@@ -19,8 +19,8 @@ import (
 	"github.com/Azure/go-autorest/autorest/to"
 	"github.com/hashicorp/errwrap"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/vault/seal"
+	"github.com/abhishekpadadale/vault/sdk/physical"
+	"github.com/abhishekpadadale/vault/vault/seal"
 )
 
 // AzureKeyVaultSeal is an auto-seal that uses Azure Key Vault

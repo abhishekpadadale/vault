@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/helper/testhelpers/docker"
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
+	"github.com/abhishekpadadale/vault/helper/testhelpers/docker"
+	"github.com/abhishekpadadale/vault/sdk/database/dbplugin"
 	influx "github.com/influxdata/influxdb/client/v2"
 	"github.com/ory/dockertest"
 )

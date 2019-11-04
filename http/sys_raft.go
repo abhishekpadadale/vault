@@ -7,8 +7,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/hashicorp/vault/sdk/helper/tlsutil"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/sdk/helper/tlsutil"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 func handleSysRaftJoin(core *vault.Core) http.Handler {

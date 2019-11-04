@@ -2,20 +2,20 @@ package teststorage
 
 import (
 	"fmt"
-	"github.com/hashicorp/vault/helper/testhelpers"
-	"github.com/hashicorp/vault/physical/raft"
+	"github.com/abhishekpadadale/vault/helper/testhelpers"
+	"github.com/abhishekpadadale/vault/physical/raft"
 	"io/ioutil"
 	"os"
 	realtesting "testing"
 	"time"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/helper/testhelpers/consul"
-	physConsul "github.com/hashicorp/vault/physical/consul"
-	"github.com/hashicorp/vault/sdk/physical"
-	physFile "github.com/hashicorp/vault/sdk/physical/file"
-	"github.com/hashicorp/vault/sdk/physical/inmem"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/helper/testhelpers/consul"
+	physConsul "github.com/abhishekpadadale/vault/physical/consul"
+	"github.com/abhishekpadadale/vault/sdk/physical"
+	physFile "github.com/abhishekpadadale/vault/sdk/physical/file"
+	"github.com/abhishekpadadale/vault/sdk/physical/inmem"
+	"github.com/abhishekpadadale/vault/vault"
 	"github.com/mitchellh/go-testing-interface"
 )
 

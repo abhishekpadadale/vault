@@ -8,15 +8,15 @@ import (
 	"testing"
 
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/physical"
-	physInmem "github.com/hashicorp/vault/sdk/physical/inmem"
-	"github.com/hashicorp/vault/shamir"
-	"github.com/hashicorp/vault/vault"
-	"github.com/hashicorp/vault/vault/seal"
-	shamirseal "github.com/hashicorp/vault/vault/seal/shamir"
+	"github.com/abhishekpadadale/vault/api"
+	vaulthttp "github.com/abhishekpadadale/vault/http"
+	"github.com/abhishekpadadale/vault/sdk/helper/logging"
+	"github.com/abhishekpadadale/vault/sdk/physical"
+	physInmem "github.com/abhishekpadadale/vault/sdk/physical/inmem"
+	"github.com/abhishekpadadale/vault/shamir"
+	"github.com/abhishekpadadale/vault/vault"
+	"github.com/abhishekpadadale/vault/vault/seal"
+	shamirseal "github.com/abhishekpadadale/vault/vault/seal/shamir"
 )
 
 func TestSealMigration(t *testing.T) {

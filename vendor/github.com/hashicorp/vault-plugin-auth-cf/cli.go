@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/vault-plugin-auth-cf/signatures"
-	"github.com/hashicorp/vault/api"
+	"github.com/abhishekpadadale/vault-plugin-auth-cf/signatures"
+	"github.com/abhishekpadadale/vault/api"
 )
 
 type CLIHandler struct{}

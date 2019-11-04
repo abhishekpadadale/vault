@@ -10,11 +10,11 @@ import (
 	"time"
 
 	stdmysql "github.com/go-sql-driver/mysql"
-	"github.com/hashicorp/vault/helper/testhelpers/docker"
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
-	"github.com/hashicorp/vault/sdk/database/helper/credsutil"
-	"github.com/hashicorp/vault/sdk/database/helper/dbutil"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
+	"github.com/abhishekpadadale/vault/helper/testhelpers/docker"
+	"github.com/abhishekpadadale/vault/sdk/database/dbplugin"
+	"github.com/abhishekpadadale/vault/sdk/database/helper/credsutil"
+	"github.com/abhishekpadadale/vault/sdk/database/helper/dbutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/strutil"
 	"github.com/ory/dockertest"
 )
 

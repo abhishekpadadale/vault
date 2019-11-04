@@ -10,7 +10,7 @@ import (
 	"crypto/x509"
 	"encoding/pem"
 
-	"github.com/hashicorp/vault/api"
+	"github.com/abhishekpadadale/vault/api"
 )
 
 var (

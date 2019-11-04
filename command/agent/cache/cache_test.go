@@ -14,17 +14,17 @@ import (
 
 	"github.com/go-test/deep"
 	hclog "github.com/hashicorp/go-hclog"
-	kv "github.com/hashicorp/vault-plugin-secrets-kv"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/builtin/credential/userpass"
-	"github.com/hashicorp/vault/command/agent/cache/cachememdb"
-	"github.com/hashicorp/vault/command/agent/sink/mock"
-	"github.com/hashicorp/vault/helper/namespace"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	kv "github.com/abhishekpadadale/vault-plugin-secrets-kv"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/builtin/credential/userpass"
+	"github.com/abhishekpadadale/vault/command/agent/cache/cachememdb"
+	"github.com/abhishekpadadale/vault/command/agent/sink/mock"
+	"github.com/abhishekpadadale/vault/helper/namespace"
+	vaulthttp "github.com/abhishekpadadale/vault/http"
+	"github.com/abhishekpadadale/vault/sdk/helper/consts"
+	"github.com/abhishekpadadale/vault/sdk/helper/logging"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 const policyAdmin = `

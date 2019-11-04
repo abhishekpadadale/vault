@@ -8,7 +8,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/helper/logging"
+	"github.com/abhishekpadadale/vault/sdk/helper/logging"
 )
 
 func TestAWSKMSSeal(t *testing.T) {

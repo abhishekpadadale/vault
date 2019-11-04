@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	sockaddr "github.com/hashicorp/go-sockaddr"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 func TestHandler_XForwardedFor(t *testing.T) {

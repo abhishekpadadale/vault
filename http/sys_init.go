@@ -6,7 +6,7 @@ import (
 	"encoding/hex"
 	"net/http"
 
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 func handleSysInit(core *vault.Core) http.Handler {

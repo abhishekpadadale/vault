@@ -14,8 +14,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/sts"
 	"github.com/hashicorp/errwrap"
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/helper/awsutil"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/helper/awsutil"
 )
 
 type CLIHandler struct{}

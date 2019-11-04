@@ -8,9 +8,9 @@ import (
 	"sync"
 	"testing"
 
-	logicaltest "github.com/hashicorp/vault/helper/testhelpers/logical"
-	"github.com/hashicorp/vault/helper/testhelpers/mongodb"
-	"github.com/hashicorp/vault/sdk/logical"
+	logicaltest "github.com/abhishekpadadale/vault/helper/testhelpers/logical"
+	"github.com/abhishekpadadale/vault/helper/testhelpers/mongodb"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 	"github.com/mitchellh/mapstructure"
 )
 

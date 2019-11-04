@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 /*

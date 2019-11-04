@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func createBackendWithStorage(t *testing.T) (*backend, logical.Storage) {

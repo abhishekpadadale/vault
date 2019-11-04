@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/helper/license"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/helper/license"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 // Helper which returns a generic regex string for creating endpoint patterns

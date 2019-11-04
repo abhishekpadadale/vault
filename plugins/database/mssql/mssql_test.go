@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
+	"github.com/abhishekpadadale/vault/sdk/database/dbplugin"
 )
 
 func TestMSSQL_Initialize(t *testing.T) {

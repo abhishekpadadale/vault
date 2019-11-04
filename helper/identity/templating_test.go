@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/vault/helper/namespace"
+	"github.com/abhishekpadadale/vault/helper/namespace"
 )
 
 // intentionally != time.Now() to catch latent used of time.Now instead of

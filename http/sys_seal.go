@@ -9,10 +9,10 @@ import (
 	"net/http"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/version"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/sdk/helper/consts"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/version"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 func handleSysSeal(core *vault.Core) http.Handler {

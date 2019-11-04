@@ -4,14 +4,14 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hashicorp/vault/sdk/helper/logging"
+	"github.com/abhishekpadadale/vault/sdk/helper/logging"
 
-	"github.com/hashicorp/vault/sdk/helper/pluginutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/pluginutil"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/plugin"
+	"github.com/abhishekpadadale/vault/sdk/helper/consts"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/plugin"
 )
 
 func TestBackend_lazyLoad(t *testing.T) {

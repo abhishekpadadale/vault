@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/plugins/database/mysql"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/plugins/database/mysql"
 )
 
 func main() {

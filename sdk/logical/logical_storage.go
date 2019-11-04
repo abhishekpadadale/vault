@@ -3,7 +3,7 @@ package logical
 import (
 	"context"
 
-	"github.com/hashicorp/vault/sdk/physical"
+	"github.com/abhishekpadadale/vault/sdk/physical"
 )
 
 type LogicalStorage struct {

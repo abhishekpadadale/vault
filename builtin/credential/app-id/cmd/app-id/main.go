@@ -4,9 +4,9 @@ import (
 	"os"
 
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	appId "github.com/hashicorp/vault/builtin/credential/app-id"
-	"github.com/hashicorp/vault/sdk/plugin"
+	"github.com/abhishekpadadale/vault/api"
+	appId "github.com/abhishekpadadale/vault/builtin/credential/app-id"
+	"github.com/abhishekpadadale/vault/sdk/plugin"
 )
 
 func main() {

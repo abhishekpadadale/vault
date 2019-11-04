@@ -130,8 +130,8 @@ import (
 	"os"
 
 	myPlugin "your/plugin/import/path"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/sdk/plugin"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/sdk/plugin"
 )
 
 func main() {

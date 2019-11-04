@@ -16,9 +16,9 @@ import (
 	"github.com/hashicorp/errwrap"
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/helper/awsutil"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/vault/seal"
+	"github.com/abhishekpadadale/vault/helper/awsutil"
+	"github.com/abhishekpadadale/vault/sdk/physical"
+	"github.com/abhishekpadadale/vault/vault/seal"
 )
 
 const (

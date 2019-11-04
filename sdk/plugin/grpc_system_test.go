@@ -10,9 +10,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	plugin "github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/plugin/pb"
+	"github.com/abhishekpadadale/vault/sdk/helper/consts"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/plugin/pb"
 )
 
 func TestSystem_GRPC_GRPC_impl(t *testing.T) {

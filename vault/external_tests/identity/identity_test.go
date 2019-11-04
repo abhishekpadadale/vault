@@ -2,17 +2,17 @@ package identity
 
 import (
 	"github.com/go-ldap/ldap"
-	"github.com/hashicorp/vault/sdk/helper/ldaputil"
+	"github.com/abhishekpadadale/vault/sdk/helper/ldaputil"
 	"testing"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	ldapcred "github.com/hashicorp/vault/builtin/credential/ldap"
-	"github.com/hashicorp/vault/helper/namespace"
-	ldaphelper "github.com/hashicorp/vault/helper/testhelpers/ldap"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/api"
+	ldapcred "github.com/abhishekpadadale/vault/builtin/credential/ldap"
+	"github.com/abhishekpadadale/vault/helper/namespace"
+	ldaphelper "github.com/abhishekpadadale/vault/helper/testhelpers/ldap"
+	vaulthttp "github.com/abhishekpadadale/vault/http"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 func TestIdentityStore_Integ_GroupAliases(t *testing.T) {

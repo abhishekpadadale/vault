@@ -5,11 +5,11 @@ import (
 	"errors"
 	"time"
 
-	"github.com/hashicorp/vault-plugin-secrets-ad/plugin/client"
-	"github.com/hashicorp/vault-plugin-secrets-ad/plugin/util"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/ldaputil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault-plugin-secrets-ad/plugin/client"
+	"github.com/abhishekpadadale/vault-plugin-secrets-ad/plugin/util"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/helper/ldaputil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 const (

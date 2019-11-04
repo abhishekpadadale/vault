@@ -5,8 +5,8 @@ package vault
 import (
 	"context"
 
-	"github.com/hashicorp/vault/helper/identity"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/helper/identity"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func waitForReplicationState(context.Context, *Core, *logical.Request) error { return nil }

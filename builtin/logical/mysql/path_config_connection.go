@@ -6,8 +6,8 @@ import (
 	"fmt"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func pathConfigConnection(b *backend) *framework.Path {

@@ -11,9 +11,9 @@ import (
 
 	"github.com/hashicorp/errwrap"
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/helper/dhutil"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/helper/dhutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/jsonutil"
 )
 
 type Sink interface {

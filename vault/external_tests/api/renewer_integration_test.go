@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/vault/api"
+	"github.com/abhishekpadadale/vault/api"
 )
 
 func TestRenewer_Renew(t *testing.T) {

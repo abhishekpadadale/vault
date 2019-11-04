@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/chrismalek/oktasdk-go/okta"
-	"github.com/hashicorp/vault/helper/mfa"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/cidrutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/helper/mfa"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/helper/cidrutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func Factory(ctx context.Context, conf *logical.BackendConfig) (logical.Backend, error) {

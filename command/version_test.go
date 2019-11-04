@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/vault/sdk/version"
+	"github.com/abhishekpadadale/vault/sdk/version"
 	"github.com/mitchellh/cli"
 )
 

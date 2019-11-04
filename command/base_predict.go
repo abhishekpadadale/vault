@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/sdk/helper/consts"
+	"github.com/abhishekpadadale/vault/api"
+	"github.com/abhishekpadadale/vault/sdk/helper/consts"
 	"github.com/posener/complete"
 )
 

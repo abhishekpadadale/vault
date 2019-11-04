@@ -5,9 +5,9 @@ import (
 	"time"
 
 	uuid "github.com/hashicorp/go-uuid"
-	credUserpass "github.com/hashicorp/vault/builtin/credential/userpass"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/sdk/logical"
+	credUserpass "github.com/abhishekpadadale/vault/builtin/credential/userpass"
+	"github.com/abhishekpadadale/vault/helper/namespace"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func TestRequestHandling_Wrapping(t *testing.T) {

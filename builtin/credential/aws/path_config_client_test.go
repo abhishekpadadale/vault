@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func TestBackend_pathConfigClient(t *testing.T) {

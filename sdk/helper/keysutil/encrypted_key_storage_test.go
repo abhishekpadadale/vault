@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/vault/sdk/helper/strutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/helper/strutil"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 var compilerOpt []string

@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/vault/api"
-	credUserpass "github.com/hashicorp/vault/builtin/credential/userpass"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/api"
+	credUserpass "github.com/abhishekpadadale/vault/builtin/credential/userpass"
+	vaulthttp "github.com/abhishekpadadale/vault/http"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 func TestPolicyTemplating(t *testing.T) {

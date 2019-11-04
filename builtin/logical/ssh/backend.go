@@ -5,9 +5,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/salt"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/helper/salt"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 type backend struct {

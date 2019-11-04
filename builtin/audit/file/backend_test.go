@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/vault/audit"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/sdk/helper/salt"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/audit"
+	"github.com/abhishekpadadale/vault/helper/namespace"
+	"github.com/abhishekpadadale/vault/sdk/helper/salt"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 )
 
 func TestAuditFile_fileModeNew(t *testing.T) {

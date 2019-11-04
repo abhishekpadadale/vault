@@ -7,7 +7,7 @@ import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
-	mfa "github.com/hashicorp/vault/helper/identity/mfa"
+	mfa "github.com/abhishekpadadale/vault/helper/identity/mfa"
 	math "math"
 )
 

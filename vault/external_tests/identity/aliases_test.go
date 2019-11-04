@@ -3,13 +3,13 @@ package identity
 import (
 	"testing"
 
-	"github.com/hashicorp/vault/api"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/api"
+	vaulthttp "github.com/abhishekpadadale/vault/http"
+	"github.com/abhishekpadadale/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/vault"
 
-	"github.com/hashicorp/vault/builtin/credential/github"
-	credLdap "github.com/hashicorp/vault/builtin/credential/ldap"
+	"github.com/abhishekpadadale/vault/builtin/credential/github"
+	credLdap "github.com/abhishekpadadale/vault/builtin/credential/ldap"
 )
 
 func TestIdentityStore_EntityAliasLocalMount(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashicorp/vault/api"
-	pwd "github.com/hashicorp/vault/sdk/helper/password"
+	"github.com/abhishekpadadale/vault/api"
+	pwd "github.com/abhishekpadadale/vault/sdk/helper/password"
 )
 
 type CLIHandler struct{}

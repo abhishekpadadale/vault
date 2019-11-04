@@ -1,7 +1,7 @@
 package plugin
 
 import (
-	"github.com/hashicorp/vault-plugin-secrets-ad/plugin/client"
+	"github.com/abhishekpadadale/vault-plugin-secrets-ad/plugin/client"
 )
 
 type configuration struct {

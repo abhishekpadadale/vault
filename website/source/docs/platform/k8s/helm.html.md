@@ -9,7 +9,7 @@ description: |-
 
 # Helm Chart
 
-The [Vault Helm chart](https://github.com/hashicorp/vault-helm)
+The [Vault Helm chart](https://github.com/abhishekpadadale/vault-helm)
 is the recommended way to install and configure Vault on Kubernetes.
 In addition to running Vault itself, the Helm chart is the primary
 method for installing and configuring Vault to integrate with other
@@ -33,7 +33,7 @@ for a Vault Helm production deployment checklist.
 ## Using the Helm Chart
 
 To use the Helm chart, you must download or clone the
-[vault-helm GitHub repository](https://github.com/hashicorp/vault-helm)
+[vault-helm GitHub repository](https://github.com/abhishekpadadale/vault-helm)
 and run Helm against the directory. We plan to transition to using a real
 Helm repository soon. When running Helm, we highly recommend you always
 checkout a specific tagged release of the chart to avoid any
@@ -48,7 +48,7 @@ Example chart usage:
 
 ```sh
 # Clone the chart repo
-$ git clone https://github.com/hashicorp/vault-helm.git
+$ git clone https://github.com/abhishekpadadale/vault-helm.git
 $ cd vault-helm
 
 # Checkout a tagged version

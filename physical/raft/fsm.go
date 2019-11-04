@@ -21,10 +21,10 @@ import (
 	log "github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-raftchunking"
 	"github.com/hashicorp/raft"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/sdk/plugin/pb"
+	"github.com/abhishekpadadale/vault/sdk/helper/jsonutil"
+	"github.com/abhishekpadadale/vault/sdk/helper/strutil"
+	"github.com/abhishekpadadale/vault/sdk/physical"
+	"github.com/abhishekpadadale/vault/sdk/plugin/pb"
 	bolt "go.etcd.io/bbolt"
 )
 

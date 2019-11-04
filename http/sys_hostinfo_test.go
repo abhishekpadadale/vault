@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/hashicorp/vault/helper/hostutil"
-	"github.com/hashicorp/vault/vault"
+	"github.com/abhishekpadadale/vault/helper/hostutil"
+	"github.com/abhishekpadadale/vault/vault"
 )
 
 func TestSysHostInfo(t *testing.T) {

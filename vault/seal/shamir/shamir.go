@@ -9,8 +9,8 @@ import (
 
 	log "github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/vault/seal"
+	"github.com/abhishekpadadale/vault/sdk/physical"
+	"github.com/abhishekpadadale/vault/vault/seal"
 )
 
 // ShamirSeal implements the seal.Access interface for Shamir unseal

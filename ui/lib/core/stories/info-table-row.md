@@ -19,7 +19,7 @@ that the value breaks under the label on smaller viewports.
 
 **See**
 
-- [Uses of InfoTableRow](https://github.com/hashicorp/vault/search?l=Handlebars&q=InfoTableRow+OR+info-table-row)
-- [InfoTableRow Source Code](https://github.com/hashicorp/vault/blob/master/ui/app/components/info-table-row.js)
+- [Uses of InfoTableRow](https://github.com/abhishekpadadale/vault/search?l=Handlebars&q=InfoTableRow+OR+info-table-row)
+- [InfoTableRow Source Code](https://github.com/abhishekpadadale/vault/blob/master/ui/app/components/info-table-row.js)
 
 ---

@@ -17,7 +17,7 @@ the Oracle database.
 
 The Oracle database plugin is not bundled in the core Vault code tree and can be
 found at its own git repository here:
-[hashicorp/vault-plugin-database-oracle](https://github.com/hashicorp/vault-plugin-database-oracle)
+[hashicorp/vault-plugin-database-oracle](https://github.com/abhishekpadadale/vault-plugin-database-oracle)
 
 See the [Database Backend](/docs/secrets/databases/index.html) docs for more
 information about setting up the Database Backend.
@@ -25,7 +25,7 @@ information about setting up the Database Backend.
 ## Setup
 
 The Oracle Database Plugin does not live in the core Vault code tree and can be found
-at its own git repository here: [hashicorp/vault-plugin-database-oracle](https://github.com/hashicorp/vault-plugin-database-oracle)
+at its own git repository here: [hashicorp/vault-plugin-database-oracle](https://github.com/abhishekpadadale/vault-plugin-database-oracle)
 
 For linux/amd64, pre-built binaries can be found at [the releases page](https://releases.hashicorp.com/vault-plugin-database-oracle)
 

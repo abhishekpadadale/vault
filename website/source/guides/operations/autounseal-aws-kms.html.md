@@ -72,7 +72,7 @@ and basic understanding of its usage
 ### Download demo assets
 
 Clone or download the demo assets from the
-[hashicorp/vault-guides](https://github.com/hashicorp/vault-guides/tree/master/operations/aws-kms-unseal/terraform-aws)
+[hashicorp/vault-guides](https://github.com/abhishekpadadale/vault-guides/tree/master/operations/aws-kms-unseal/terraform-aws)
 GitHub repository to perform the steps described in this guide.
 
 

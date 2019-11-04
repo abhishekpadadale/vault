@@ -10,8 +10,8 @@ import (
 	proto "github.com/golang/protobuf/proto"
 	"github.com/hashicorp/errwrap"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/vault/seal"
+	"github.com/abhishekpadadale/vault/sdk/physical"
+	"github.com/abhishekpadadale/vault/vault/seal"
 )
 
 // barrierTypeUpgradeCheck checks for backwards compat on barrier type, not

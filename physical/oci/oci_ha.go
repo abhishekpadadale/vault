@@ -10,7 +10,7 @@ import (
 	"github.com/armon/go-metrics"
 	"github.com/hashicorp/errwrap"
 	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/sdk/physical"
+	"github.com/abhishekpadadale/vault/sdk/physical"
 	"github.com/oracle/oci-go-sdk/objectstorage"
 	"io/ioutil"
 	"net/http"

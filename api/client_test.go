@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/vault/sdk/helper/consts"
+	"github.com/abhishekpadadale/vault/sdk/helper/consts"
 )
 
 func init() {

@@ -9,11 +9,11 @@ import (
 
 	"database/sql"
 
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/helper/testhelpers/mongodb"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/dbtxn"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/abhishekpadadale/vault/helper/namespace"
+	"github.com/abhishekpadadale/vault/helper/testhelpers/mongodb"
+	"github.com/abhishekpadadale/vault/sdk/framework"
+	"github.com/abhishekpadadale/vault/sdk/helper/dbtxn"
+	"github.com/abhishekpadadale/vault/sdk/logical"
 
 	"github.com/lib/pq"
 )
